@@ -1,0 +1,33 @@
+ ISTART = 0
+ ICHARG = 2
+ LORBIT = 11
+ 
+ ISPIN = 2
+ MAGMOM = 1.0 1.0 -1.0 -1.0 12*0.0
+ NUPDOWN = 0
+
+ GGA = PE
+  AMIX      = 0.2
+  BMIX      = 0.00001
+  AMIX_MAG  = 0.8
+  BMIX_MAG  = 0.00001
+     
+  LDAU      = .TRUE.
+  LDAUTYPE  = 2
+  LDAUL     = 2 -1 -1
+  LDAUU     = 7.5 0.0 0.0
+  LDAUJ     = 0.0 0.0 0.0
+  LDAUPRINT = 2
+ 
+ ISMEAR = 0
+ SIGMA  = 0.2
+
+ PREC = Accurate
+ ENCUT  = 500
+ EDIFF = 1E-7
+ NELM = 150
+ 
+ LMAXMIX = 6
+ NBANDS = 168
+ NPAR = 4
+ 

@@ -1,0 +1,11 @@
+AFM state examples are provided, FM and SDW states are similar by changing the underlying mean-field.
+
+To run:
+1. first generate integrals and run HF.
+2. after HF is finished, run DMET code.
+
+rdm1_glob_lo_k.npy stores the reduced 1-particle density matrices.
+it can be load via numpy.load, and has shape (2, nkpts, norb, norb).
+where nkpts is the number of kpoints and norb is the number of embedding orbitals.
+Among the norb orbitals, the first nimp is the impurity orbitals, the remaining are bath orbitals.
+The orbital order is the same as the order in the population.

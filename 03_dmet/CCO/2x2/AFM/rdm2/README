@@ -1,0 +1,2 @@
+after DMET is finished, 
+run these scripts (CCO.py, calc_spin_cf.py) to get rdm2 and spin-spin correlation functions.

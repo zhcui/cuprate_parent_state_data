@@ -1,0 +1,28 @@
+ ISTART = 1
+ ICHARG = 1
+ LORBIT = 11
+ 
+ ISPIN = 2
+ MAGMOM = 1.0 1.0 -1.0 -1.0 12*0.0
+ NUPDOWN = 0
+
+ LHFCALC = .TRUE. 
+ AEXX = 1.0
+ ALGO = All
+ TIME = 0.4
+ PRECFOCK = Normal 
+
+ GGA = PE
+ 
+ ISMEAR = 0
+ SIGMA  = 0.2
+
+ PREC = Accurate
+ ENCUT  = 500
+ EDIFF = 1E-6
+ NELM = 150
+ 
+ LMAXMIX = 6
+ NBANDS = 168
+ NPAR = 4
+ 
