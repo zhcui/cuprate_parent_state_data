@@ -85,7 +85,7 @@ kmf_symm.max_cycle = 150
 kmf_symm.kernel(dm0=dm0)
 kmf = pbc_hp.kmf_symm_(kmf_symm)
 
-Lat.analyze(kmf, pre_orth_ao='def2-svp-atom')
+Lat.analyze(kmf, pre_orth_ao='SCF')
 
 ovlp = np.asarray(kmf.get_ovlp())
 
